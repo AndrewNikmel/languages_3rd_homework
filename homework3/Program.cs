@@ -20,35 +20,40 @@
 
 
 
-double FindDistance(int xa, int ya, int za, int xb, int yb, int zb){
-    double distance = Math.Sqrt((xb - xa)*(xb - xa)+(yb-ya)*(yb-ya)+(zb-za)*(zb-za));
-    return distance;
-}
-Console.Write("Enter coordinate x of point A: ");
-int xa = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter coordinate y of point A: ");
-int ya = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter coordinate z of point A: ");
-int za = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter coordinate x of point B: ");
-int xb = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter coordinate y of point B: ");
-int yb = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter coordinate z of point B: ");
-int zb = Convert.ToInt32(Console.ReadLine());
+// double FindDistance(int xa, int ya, int za, int xb, int yb, int zb){
+//     double distance = Math.Sqrt((xb - xa)*(xb - xa)+(yb-ya)*(yb-ya)+(zb-za)*(zb-za));
+//     return distance;
+// }
+// Console.Write("Enter coordinate x of point A: ");
+// int xa = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate y of point A: ");
+// int ya = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate z of point A: ");
+// int za = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate x of point B: ");
+// int xb = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate y of point B: ");
+// int yb = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate z of point B: ");
+// int zb = Convert.ToInt32(Console.ReadLine());
 
-double res = FindDistance(xa, ya, za, xb, yb, zb);
-Console.WriteLine($"Result is {Math.Round(res,2)}");
+// double res = FindDistance(xa, ya, za, xb, yb, zb);
+// Console.WriteLine($"Result is {Math.Round(res,2)}");
 
 
 
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-
-
-
-
-
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+
+void IceCube(int num){
+    for (int count = 1; count <= num; count = count + 1){
+        Console.Write(count * count * count + " ");
+        }
+}
+Console.WriteLine("Enter your number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+IceCube(number);
