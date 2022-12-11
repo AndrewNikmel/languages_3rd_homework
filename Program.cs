@@ -44,3 +44,19 @@
 // Console.WriteLine("Enter the number of the squad: ");
 // int squad = Convert.ToInt32(Console.ReadLine());
 // SearchRange(squad);
+
+// написать программу, которая принимает на вход
+// число N, а затем выдает таблицу квадратов от 
+// 1 до N
+
+void Multiply(int num){
+    int count = 1;
+    while (count <= num){
+        
+        Console.Write(count * count + " ");
+        count++;
+    }
+}
+Console.WriteLine("Enter your number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Multiply(number);
