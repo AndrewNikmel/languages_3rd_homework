@@ -1,3 +1,94 @@
 I:\study IT\3. Languages\seminar3\homework3\obj
 homework3\homework3.csproj
 I:\study IT\3. Languages\seminar3\homework3\homework3.csproj
+[{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"global::System.Runtime.Versioning.TargetFrameworkAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 4,
+	"startColumn": 12,
+	"endLineNumber": 4,
+	"endColumn": 70
+}]
+[{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/homework3.AssemblyInfo.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"System.Reflection.AssemblyCompanyAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 13,
+	"startColumn": 12,
+	"endLineNumber": 13,
+	"endColumn": 54
+},{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/homework3.AssemblyInfo.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"System.Reflection.AssemblyConfigurationAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 14,
+	"startColumn": 12,
+	"endLineNumber": 14,
+	"endColumn": 60
+},{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/homework3.AssemblyInfo.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"System.Reflection.AssemblyFileVersionAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 15,
+	"startColumn": 12,
+	"endLineNumber": 15,
+	"endColumn": 58
+},{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/homework3.AssemblyInfo.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"System.Reflection.AssemblyInformationalVersionAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 16,
+	"startColumn": 12,
+	"endLineNumber": 16,
+	"endColumn": 67
+},{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/homework3.AssemblyInfo.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"System.Reflection.AssemblyProductAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 17,
+	"startColumn": 12,
+	"endLineNumber": 17,
+	"endColumn": 54
+},{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/homework3.AssemblyInfo.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"System.Reflection.AssemblyTitleAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 18,
+	"startColumn": 12,
+	"endLineNumber": 18,
+	"endColumn": 52
+},{
+	"resource": "/i:/study IT/3. Languages/seminar3/homework3/obj/Debug/net7.0/homework3.AssemblyInfo.cs",
+	"owner": "csharp",
+	"code": "CS0579",
+	"severity": 8,
+	"message": "Повторяющийся атрибут \"System.Reflection.AssemblyVersionAttribute\" [seminar3]",
+	"source": "csharp",
+	"startLineNumber": 19,
+	"startColumn": 12,
+	"endLineNumber": 19,
+	"endColumn": 54
+}]
+I:\study IT\3. Languages\seminar3\homework3\obj\Debug

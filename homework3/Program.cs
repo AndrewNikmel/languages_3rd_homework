@@ -7,6 +7,20 @@
 // 12821 -> да
 // 23432 -> да
 
+void Palindrom(int num){
+    int a = num%10;
+    int b = (num - a)%10;
+    int c = (num - b)%10;
+    int d = (num - c)%10;
+    int e = (num - num%10000)/10000;
+    if (a == e && b == d)
+        Console.WriteLine($"The number {num} is Palindrom");
+    else
+        Console.WriteLine($"The number {num} is not a Palindrom");
+}
+Console.WriteLine("Imagine and enter the number between 9999 and 100000");
+int nummy = Convert.ToInt32(Console.ReadLine());
+Palindrom(nummy);
 
 
 
@@ -49,11 +63,11 @@
 // 5 -> 1, 8, 27, 64, 125
 
 
-void IceCube(int num){
-    for (int count = 1; count <= num; count = count + 1){
-        Console.Write(count * count * count + " ");
-        }
-}
-Console.WriteLine("Enter your number: ");
-int number = Convert.ToInt32(Console.ReadLine());
-IceCube(number);
+// void IceCube(int num){
+//     for (int count = 1; count <= num; count = count + 1){
+//         Console.Write(count * count * count + " ");
+//         }
+// }
+// Console.WriteLine("Enter your number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// IceCube(number);
