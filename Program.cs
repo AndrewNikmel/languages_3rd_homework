@@ -49,14 +49,48 @@
 // число N, а затем выдает таблицу квадратов от 
 // 1 до N
 
-void Multiply(int num){
-    int count = 1;
-    while (count <= num){
+// void Multiply(int num){
+//     int count = 1;
+//     while (count <= num){
         
-        Console.Write(count * count + " ");
-        count++;
-    }
-}
-Console.WriteLine("Enter your number: ");
-int number = Convert.ToInt32(Console.ReadLine());
-Multiply(number);
+//         Console.Write(count * count + " ");
+//         count++;
+//     }
+// }
+// Console.WriteLine("Enter your number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// Multiply(number);
+
+
+// Another way of solution 
+
+
+// void Multiply(int num){
+//     for (int count = 1; count <= num; count++){
+//         Console.Write(count * count + " ");
+//         count++;
+//     }
+// }
+// Console.WriteLine("Enter your number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// Multiply(number);
+
+
+// Задача 3. Дистанции. написать программу, которая принимает координаты
+// двух точек и находит расстояние между ними в двухмерном пространстве
+
+// double FindDistance(int xa, int ya, int xb, int yb){
+//     double distance = Math.Sqrt((xb - xa)*(xb - xa)+(yb-ya)*(yb-ya));
+//     return distance;
+// }
+// Console.Write("Enter coordinate x of point A: ");
+// int xa = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate y of point A: ");
+// int ya = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate x of point B: ");
+// int xb = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter coordinate y of point B: ");
+// int yb = Convert.ToInt32(Console.ReadLine());
+
+// double res = FindDistance(xa, ya, xb, yb);
+// Console.WriteLine($"Result is {Math.Round(res,2)}");
